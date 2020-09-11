@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header > div > img {
+  height: 40px;
+  width: auto;
+}
+
+#brand {
+  padding: 0 258px 0 165px;
+}
+
+.header > .menu {
+  padding: 0 20px;
+}
+
+.header > div > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+}
+
+.header {
+  height: 105px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+
+.content-wrapper {
+  margin-top: 105px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#title > h1 {
+  margin: 0;
+}
+
+#left-col {
+  padding-left: 200px;
+  padding-top: 130px;
+  width: 290px;
+}
+
+#left-col > div > h3 {
+  font-weight: normal;
+  color: #777777;
+  font-size: 20px;
+  margin: 0;
+}
+
+#login-box-wrapper {
+  margin: 20px 0;
+}
+
+.login-box {
+  width: 100%;
+  background-color: #f5f5f5;
+  border: none;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #c0c0c0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#left-col > button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: #0084ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#remember > input {
+  margin: 0;
+}
+
+#right-col > img {
+  height: 644px;
+  width: auto;
+}
